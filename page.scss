@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+};
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+};
+h1 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+};
+a {
+    text-decoration: none;
+    color: white;
+    border: 5px solid red;
+    padding: 10px;
+    font-family: 'Bakbak One', cursive;
+};
+a:hover {
+    background-color: green;
+    border: 5px solid white;
+};
+ol {
+    color: white;
+}
